@@ -20,9 +20,9 @@
     "geolocation"
   ],
   "devDependencies": {
-    "jest": "^24.8.0",
     "aws-sdk": "2.x",
-    "bindings": "^1.5.0"
+    "bindings": "^1.5.0",
+    "jest": "^24.8.0"
   },
   "binary": {
     "module_name": "s2",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.10",
-    "node-addon-api": "^1.7.2",
-    "node-gyp": "^9.3.1"
+    "node-addon-api": "^8.5.0",
+    "node-gyp": "^11.0.0"
   }
 }
